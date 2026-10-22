@@ -24,7 +24,18 @@
     .links a { text-decoration: none; font-weight: 600; }
     .button { display: inline-block; padding: 14px 24px; background: var(--blue); color: white; text-decoration: none; border-radius: 30px; font-weight: bold; }
     .button:hover { background: var(--navy); }
-    .hero { background: linear-gradient(115deg,#fff 5%,#e8f3ff 65%,#c8e2ff); padding: 110px 5%; }
+    .hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.98) 0%,
+      rgba(255,255,255,0.94) 30%,
+      rgba(255,255,255,0.76) 48%,
+      rgba(255,255,255,0.08) 80%
+    ),
+    url("seattle-waterfront.jpg") center center / cover no-repeat;
+  padding: 110px 5%;
+}
     .hero-inner { max-width: 1200px; margin: auto; }
     .eyebrow { color: var(--blue); font-size: .85rem; font-weight: 700; letter-spacing: 2px; }
     h1 { font-size: clamp(2.6rem, 6vw, 5rem); line-height: 1.08; max-width: 850px; margin: 22px 0; }
