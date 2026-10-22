@@ -50,6 +50,13 @@
     .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 25px; margin-top: 35px; }
     .card { border: 1px solid #dce7f4; border-radius: 18px; overflow: hidden; box-shadow: 0 8px 28px #10264a12; }
     .visual { min-height: 185px; display: flex; align-items: center; justify-content: center; padding: 20px; color: white; font-size: 1.6rem; font-weight: bold; text-align: center; background: linear-gradient(135deg,#073575,#1684d7); }
+    .visual img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+}
     .card:nth-child(2) .visual { background: linear-gradient(135deg,#173b52,#448a9a); }
     .card:nth-child(3) .visual { background: linear-gradient(135deg,#11366c,#5683bb); }
     .card:nth-child(4) .visual { background: linear-gradient(135deg,#365c68,#86aaa6); }
