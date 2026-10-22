@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Carter Lastinger's professional learning and workforce development portfolio.">
+  <title>Carter Lastinger | Learning & Workforce Development</title>
+  <style>
+    :root {
+      --navy: #071d54;
+      --blue: #0865cf;
+      --pale: #edf5ff;
+      --text: #203454;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, sans-serif; color: var(--navy); background: #fff; }
+    a { color: inherit; }
+    a:focus-visible { outline: 3px solid #e48b13; outline-offset: 4px; }
+    header { background: #fff; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 12px #10264a15; }
+    nav { max-width: 1200px; margin: auto; padding: 22px 5%; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .brand { font-weight: 800; font-size: 1.2rem; text-decoration: none; }
+    .links { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+    .links a { text-decoration: none; font-weight: 600; }
+    .button { display: inline-block; padding: 14px 24px; background: var(--blue); color: white; text-decoration: none; border-radius: 30px; font-weight: bold; }
+    .button:hover { background: var(--navy); }
+    .hero { background: linear-gradient(115deg,#fff 5%,#e8f3ff 65%,#c8e2ff); padding: 110px 5%; }
+    .hero-inner { max-width: 1200px; margin: auto; }
+    .eyebrow { color: var(--blue); font-size: .85rem; font-weight: 700; letter-spacing: 2px; }
+    h1 { font-size: clamp(2.6rem, 6vw, 5rem); line-height: 1.08; max-width: 850px; margin: 22px 0; }
+    h1 span { color: var(--blue); }
+    .intro { max-width: 630px; font-size: 1.2rem; line-height: 1.7; color: var(--text); }
+    .capabilities { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 45px; }
+    .capabilities span { background: white; padding: 13px 17px; border-radius: 30px; box-shadow: 0 3px 12px #10264a12; }
+    .stats { background: var(--navy); color: white; padding: 28px 5%; text-align: center; font-weight: 700; }
+    section.work { max-width: 1200px; margin: auto; padding: 75px 5%; }
+    h2 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 12px; }
+    .subtitle { color: var(--text); line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 25px; margin-top: 35px; }
+    .card { border: 1px solid #dce7f4; border-radius: 18px; overflow: hidden; box-shadow: 0 8px 28px #10264a12; }
+    .visual { min-height: 185px; display: flex; align-items: center; justify-content: center; padding: 20px; color: white; font-size: 1.6rem; font-weight: bold; text-align: center; background: linear-gradient(135deg,#073575,#1684d7); }
+    .card:nth-child(2) .visual { background: linear-gradient(135deg,#173b52,#448a9a); }
+    .card:nth-child(3) .visual { background: linear-gradient(135deg,#11366c,#5683bb); }
+    .card:nth-child(4) .visual { background: linear-gradient(135deg,#365c68,#86aaa6); }
+    .card-content { padding: 25px; }
+    .card-content h3 { margin: 0 0 10px; font-size: 1.4rem; }
+    .card-content p { line-height: 1.6; color: var(--text); }
+    .sample-link { color: var(--blue); font-weight: bold; }
+    .pending { color: #52667f; font-size: .9rem; }
+    footer { background: var(--navy); color: white; text-align: center; padding: 35px; }
+    @media(max-width:700px) {
+      nav { align-items: flex-start; }
+      .links { gap: 14px; }
+      .hero { padding: 70px 6%; }
+      .grid { grid-template-columns: 1fr; }
+    }
+    @media(prefers-reduced-motion:reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="brand" href="#home">CARTER LASTINGER</a>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a class="button" href="#portfolio">Explore My Work →</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="eyebrow">LEARNING & WORKFORCE DEVELOPMENT</p>
+        <h1>Practical Learning Solutions <span>for Real-World Impact</span></h1>
+        <p class="intro">Learning strategy, experience design, technical training, and workforce development that build capability and drive performance.</p>
+        <a class="button" href="#portfolio">Explore My Work →</a>
+        <div class="capabilities" aria-label="Professional capabilities">
+          <span>Strategy & Program Management</span>
+          <span>Instructional Design & Development</span>
+          <span>Technical & Enterprise Training</span>
+          <span>AI-Assisted Development</span>
+          <span>Evaluation & Continuous Improvement</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats">15+ Years of Experience &nbsp; | &nbsp; 1,200+ Learners Supported &nbsp; | &nbsp; WCAG 2.1 AA</div>
+
+    <section class="work" id="portfolio">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Explore My Work</h2>
+      <p class="subtitle">Learning strategy, experience design, technical training, and workforce development.</p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="visual">First 120 Days</div>
+          <div class="card-content">
+            <h3>First 120 Days</h3>
+            <p>Interactive Sales Onboarding & Manager Enablement</p>
+            <a class="sample-link" href="https://mcarterlastinger-spec.github.io/first-120-days-sales-enablement/" target="_blank" rel="noopener noreferrer">Launch Interactive Prototype ↗</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="visual">Rail Electrical Worker</div>
+          <div class="card-content">
+            <h3>Rail Electrical Worker Program</h3>
+            <p>Competency-based workforce development and technical training.</p>
+            <span class="pending">Sample link to be connected</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="visual">Traction Power Safety</div>
+          <div class="card-content">
+            <h3>Traction Power Safety Practices</h3>
+            <p>Instructor-led technical and safety training.</p>
+            <span class="pending">Sample link to be connected</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="visual">Dine 102</div>
+          <div class="card-content">
+            <h3>Dine 102</h3>
+            <p>Interactive, scenario-based learning with scoring.</p>
+            <span class="pending">Sample link to be connected</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Carter Lastinger · Learning & Workforce Development</p>
+  </footer>
+</body>
+</html>
